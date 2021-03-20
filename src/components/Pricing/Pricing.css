@@ -1,0 +1,234 @@
+.pricing{
+    border-top: 1px solid rgb(189, 189, 189);
+}
+.main-content{
+    background: #EFEFEF;
+    padding-top: 20px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.places{
+    width: 90%;
+    margin: 0 auto;
+    background: #218838;
+    padding-left: 100px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+.places h4{
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+}
+.place-from{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.place-to{
+    padding-bottom: 30px;
+}
+.place-from:before{
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #fff;
+    left: -45px;
+    top: 45px;
+}
+.place-to:before{
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #fff;
+    left: -45px;
+    bottom: 40px;
+}
+.places::before{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 70px;
+    background: #fff;
+    left: 93px;
+    top: 65px;
+}
+
+.ticket-price{
+    width: 90%;
+    margin: 0 auto;
+}
+.ticket-price h2{
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 700;
+    color: #2C3A47;
+}
+.single-ticket{
+    width: 90%;
+    border-radius:10px;
+    margin: 20px auto;
+    padding: 10px 20px 0 20px;
+    font-size: 25px;
+    background: #fff;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.single-ticket:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.single-ticket .icon{
+    color: #157347;
+}
+.single-ticket p{
+    font-weight: 600;
+}
+.single-ticket h5{
+    padding-top: 2px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media (min-width: 1200px){
+    .places::before{
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 70px;
+        background: #fff;
+        left: 93px;
+        top: 65px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    
+    .places::before{
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 70px;
+        background: #fff;
+        left: 90px;
+        top: 65px;
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .places{
+        padding-left: 70px;
+    }
+    .places h4{
+        font-size: 20px;
+    }
+    .place-from:before{
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        left: -40px;
+        top: 40px;
+    }
+    .place-to:before{
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        left: -40px;
+        bottom: 35px;
+    }
+    .places::before{
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 60px;
+        left: 60px;
+        top: 60px;
+    }
+    .ticket-price{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .ticket-price h2{
+        padding: 15px 0;
+        text-align: center;
+        font-weight: 700;
+        color: #2C3A47;
+    }
+    .single-ticket{
+        font-size: 20px;
+    }
+    .single-ticket h5{
+        font-size: 20px;
+    }
+}
+@media (max-width: 575px){
+    .places{
+        padding-left: 70px;
+    }
+    .places h4{
+        font-size: 20px;
+    }
+    .place-from:before{
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        left: -40px;
+        top: 40px;
+    }
+    .place-to:before{
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        left: -40px;
+        bottom: 35px;
+    }
+    .places::before{
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 60px;
+        left: 60px;
+        top: 60px;
+    }
+    .ticket-price{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .ticket-price h2{
+        padding: 15px 0;
+        text-align: center;
+        font-weight: 700;
+        color: #2C3A47;
+    }
+    .single-ticket{
+        font-size: 20px;
+    }
+    .single-ticket h5{
+        font-size: 20px;
+    }
+}

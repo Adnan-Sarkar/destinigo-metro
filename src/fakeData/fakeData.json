@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "One Time Ticket",
+        "img": "https://i.ibb.co/236Y3Hv/bg-1.png",
+        "price": "$500"
+    },
+    {
+        "id": 1,
+        "name": "One Day Pass",
+        "img": "https://i.ibb.co/cyRVTHN/bg-2.png",
+        "price": "$100"
+    },
+    {
+        "id": 2,
+        "name": "Monthly Pass",
+        "img": "https://i.ibb.co/QjmPQtY/bg-3.png",
+        "price": "$1500"
+    },
+    {
+        "id": 3,
+        "name": "Annual Pass",
+        "img": "https://i.ibb.co/6wgvdfv/bg-4.png",
+        "price": "$2000"
+    }
+]

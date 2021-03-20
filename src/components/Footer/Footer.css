@@ -1,0 +1,13 @@
+.footer{
+    background: rgb(68, 68, 68);
+    color: #fff;
+    line-height: 60px;
+}
+.footer a{
+    color: #FD7272;
+    text-decoration: none;
+    transition: all linear .3s;
+}
+.footer a:hover{
+    color: #B33771;
+}

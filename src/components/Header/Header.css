@@ -1,0 +1,21 @@
+.navbar-collapse{
+    text-align: center;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+}
+.navbar-brand span{
+    color: #FC427B;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link{
+    margin-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link:last-child{
+    margin-right: 30px;
+}
+.nav-item{
+    font-size: 16px;
+    font-weight: 600;
+}

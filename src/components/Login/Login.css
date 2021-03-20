@@ -1,0 +1,125 @@
+.my-form{
+    width: 570px;
+    height: 525px;
+    border: 1px solid #ABABAB;
+    border-radius:4px;
+    margin: 0 auto;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+}
+.my-form h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.my-form input{
+    width: 80%;
+    margin: 0 auto;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.my-form input:last-child{
+    border: 0;
+    padding: 10px 0;
+}
+.my-form p span{
+    font-weight: 500;
+    cursor: pointer;
+    color: green;
+    transition: all linear .3s;
+}
+.my-form p span:hover{
+    color: #FC427B;
+}
+.divider{
+    width: 432px;
+    height: 22px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+}
+.divider::before{
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 1px;
+    background: #AAAAAA;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.divider::after{
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 1px;
+    background: #AAAAAA;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.google-fb-button{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+    width: 460px;
+    height:50px;
+    border-radius: 57px;
+    -webkit-border-radius: 57px;
+    -moz-border-radius: 57px;
+    -ms-border-radius: 57px;
+    -o-border-radius: 57px;
+    border: 1px solid #C7C7C7;
+    background: transparent;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.google:hover{
+    background: #DB4437;
+    color: #fff;
+}
+.facebook:hover{
+    background: #4267B2;
+    color: #fff;
+}
+.social-icon{
+    font-size: 16px;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.facebook{
+    margin-bottom: 50px;
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .my-form{
+        width: 100%;
+    }
+}
+@media (max-width: 575px){
+    .my-form{
+        width: 100%;
+    }
+}
