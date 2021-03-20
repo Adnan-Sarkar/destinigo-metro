@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="footer text-center">
-            © 2021 <a href="https://www.facebook.com/adnansarkaraduvai/" target="_blank" alt="Adnansarkar">Adnan Sarkar</a> All Rights Reserved.
+            © 2021 <a href="https://www.facebook.com/adnansarkaraduvai/" target="_blank" rel="noreferrer" alt="Adnansarkar">Adnan Sarkar</a> All Rights Reserved.
         </div>
     );
 };

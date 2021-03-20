@@ -26,7 +26,8 @@ function Login() {
 
     initializeLoginFramework();
 
-    const [ loggedInUser, setLoggedInUser ] = useContext(UserContext);
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+    console.log(loggedInUser);
     const history = useHistory();
     const location = useLocation();
 
