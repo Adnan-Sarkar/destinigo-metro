@@ -120,7 +120,7 @@
         padding-right: 40px;
     }
 }
-@media (min-width: 330px) and (max-width: 405px) {
+@media (min-width: 351px) and (max-width: 405px) {
     .card-body{
         width: 270px;
         height: 350px;
@@ -140,6 +140,32 @@
         width: 270px;
         text-align: center;
         padding-right: 40px;
+    }
+}
+@media (min-width: 331px) and (max-width: 350px){
+    .my-card{
+        width: 100%;
+    }
+    .card-body{
+        width: 270px;
+        height: 350px;
+        text-align: center;
+    }
+    .card-body h1{
+        width: 270px;
+        padding-right: 90px;
+        font-size: 30px;
+        padding-bottom: 45px;
+    }
+    .my-btn{
+        margin-left: 20px;
+    }
+    .card-body h6{
+        font-size: 60px;
+        width: 270px;
+        text-align: center;
+        padding-right: 90px;
+        padding-top: 90px;
     }
 }
 @media (min-width: 320px) and (max-width: 330px) {
